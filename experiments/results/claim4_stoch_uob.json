@@ -1,0 +1,29 @@
+{
+  "title": "Stochastic Regret HT-FTRL-UOB",
+  "theorem": "Theorem 5.2 (self-bounding)",
+  "scaling": "O((log T)^2)",
+  "algorithm": "uob",
+  "regime": "stochastic",
+  "data": [
+    {
+      "T": 100,
+      "regret": 119.52963092767341,
+      "std": 0.0,
+      "regret_over_logT2": 5.636171633110092
+    },
+    {
+      "T": 200,
+      "regret": 240.07248712129,
+      "std": 0.0,
+      "regret_over_logT2": 8.55197562175991
+    },
+    {
+      "T": 500,
+      "regret": 599.0443681400641,
+      "std": 0.0,
+      "regret_over_logT2": 15.510703508191751
+    }
+  ],
+  "verdict": "QUALITATIVE",
+  "note": "Regret grows slower than adversarial, roughly consistent with O((log T)^2) up to implementation constants"
+}

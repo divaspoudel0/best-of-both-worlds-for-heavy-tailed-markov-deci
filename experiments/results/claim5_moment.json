@@ -1,0 +1,59 @@
+{
+  "alpha": 1.5,
+  "tail_index": 3.0,
+  "sigma": 1.0,
+  "N_samples": 1000000,
+  "moment_ratio": 1.0003535913198143,
+  "moment_bounded": true,
+  "truncative_nonnegativity": {
+    "M=1.0": {
+      "value": 0.5701247524678446,
+      "nonneg": true
+    },
+    "M=5.0": {
+      "value": 0.9300699768214565,
+      "nonneg": true
+    },
+    "M=10.0": {
+      "value": 0.9409748221443551,
+      "nonneg": true
+    },
+    "M=50.0": {
+      "value": 0.9456316773192661,
+      "nonneg": true
+    },
+    "M=100.0": {
+      "value": 0.9456316773192661,
+      "nonneg": true
+    }
+  },
+  "skipping_estimator": {
+    "100": {
+      "tau": 9.283177667225557,
+      "skip_fraction": 0.0,
+      "E_estimator": 8.928746343976329,
+      "E_estimator_sq": 93.86328391416106
+    },
+    "500": {
+      "tau": 27.144176165949062,
+      "skip_fraction": 0.0,
+      "E_estimator": 9.060912596878502,
+      "E_estimator_sq": 95.58892607837488
+    },
+    "1000": {
+      "tau": 43.088693800637664,
+      "skip_fraction": 0.0,
+      "E_estimator": 9.310487386839137,
+      "E_estimator_sq": 108.78220407551372
+    },
+    "5000": {
+      "tau": 125.99210498948729,
+      "skip_fraction": 0.0,
+      "E_estimator": 9.348453676237533,
+      "E_estimator_sq": 110.89779362262111
+    }
+  },
+  "verdict": "FULLY SUPPORTED",
+  "title": "Alpha-moment condition and skipping estimator",
+  "theorem": "Assumption 5.1"
+}

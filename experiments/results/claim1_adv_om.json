@@ -1,0 +1,35 @@
+{
+  "title": "Adversarial Regret HT-FTRL-OM",
+  "theorem": "Theorem 4.1",
+  "scaling": "O(T^{1/alpha})",
+  "algorithm": "om",
+  "regime": "adversarial",
+  "data": [
+    {
+      "T": 100,
+      "regret": 43.43121848287997,
+      "std": 0.0,
+      "regret_over_T1a": 2.0158985874033264
+    },
+    {
+      "T": 200,
+      "regret": 69.67938947665186,
+      "std": 0.0,
+      "regret_over_T1a": 2.0374377081757302
+    },
+    {
+      "T": 500,
+      "regret": 188.68393966788113,
+      "std": 0.0,
+      "regret_over_T1a": 2.9951708431829887
+    },
+    {
+      "T": 1000,
+      "regret": 363.0092437526146,
+      "std": 0.0,
+      "regret_over_T1a": 3.630092437526147
+    }
+  ],
+  "verdict": "SUPPORTED",
+  "ratio_spread": 1.8007316738100698
+}

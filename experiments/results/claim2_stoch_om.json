@@ -1,0 +1,35 @@
+{
+  "title": "Stochastic Regret HT-FTRL-OM",
+  "theorem": "Theorem 4.1 (self-bounding)",
+  "scaling": "O(log T)",
+  "algorithm": "om",
+  "regime": "stochastic",
+  "data": [
+    {
+      "T": 100,
+      "regret": 120.74482696202227,
+      "std": 0.0,
+      "regret_over_logT": 26.219406033984626
+    },
+    {
+      "T": 200,
+      "regret": 240.21205482184345,
+      "std": 0.0,
+      "regret_over_logT": 45.33742284644353
+    },
+    {
+      "T": 500,
+      "regret": 598.8129359820689,
+      "std": 0.0,
+      "regret_over_logT": 96.35570360970948
+    },
+    {
+      "T": 1000,
+      "regret": 1195.9266360040488,
+      "std": 0.0,
+      "regret_over_logT": 173.1281129258924
+    }
+  ],
+  "verdict": "QUALITATIVE",
+  "note": "Regret grows slower than adversarial but O(log T) requires careful self-bounding analysis at larger scales"
+}

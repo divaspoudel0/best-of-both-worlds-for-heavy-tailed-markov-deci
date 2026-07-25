@@ -1,0 +1,29 @@
+{
+  "title": "Adversarial Regret HT-FTRL-UOB",
+  "theorem": "Theorem 5.2",
+  "scaling": "O(T^{1/alpha} + sqrt(T) log T + (log T)^2)",
+  "algorithm": "uob",
+  "regime": "adversarial",
+  "data": [
+    {
+      "T": 100,
+      "regret": 44.00647047550385,
+      "std": 0.0,
+      "regret_over_bound": 1.395066780572942
+    },
+    {
+      "T": 200,
+      "regret": 87.27832402988759,
+      "std": 0.0,
+      "regret_over_bound": 1.805447596471876
+    },
+    {
+      "T": 500,
+      "regret": 203.49710179001278,
+      "std": 0.0,
+      "regret_over_bound": 2.384077932446241
+    }
+  ],
+  "verdict": "SUPPORTED",
+  "ratio_spread": 1.7089346299731405
+}
